@@ -14,6 +14,6 @@ O redux é um container de estados globais para a aplicação que pode ser utili
 
 ### Os 3 Principios
 - O store é a unica fonte de poder e verdade! Todos os estados estarão concentrados somente dentro do store
-- Os estados são apenas leitura, e podem ser alterados através das Actions.
+- Os estados são apenas leitura, e só podem ser alterados através das Actions (Criando um novo estado e devolvendo esse novo estado).
 - As alterações são feitas através de funções puras (Reducers, que pega o estado anterior e devolve um novo estado)
 
